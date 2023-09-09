@@ -6,11 +6,17 @@
  */
 int main(void)
 {
-char letter;
-for (letter = 'a'; letter = 'z'; letter++)
-putchar(letter);
-for (letter = 'A'; letter = 'Z'; letter++)
-putchar(letter);
-putchar('\n');
+char c;
+char d;
+c = 'a';
+d = 'A';
+
+while (c <= 'z')
+	putchar(c);
+	c++;
+while (d <= 'Z')
+	putchar(d);
+	d++;
 return (0);
 }
+
