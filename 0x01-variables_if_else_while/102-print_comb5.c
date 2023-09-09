@@ -7,9 +7,9 @@ int main(void)
 {
 	int n, i;
 
-	for (n = 0; n <= 98; n++)
+	for (n = 0; n <= 99; n++)
 	{
-		for (i = n + 1; i <= 98; i++)
+		for (i = n + 1; i <= 99; i++)
 		{
 			putchar((n / 10) + '0');
 			putchar((n % 10) + '0');
@@ -17,8 +17,7 @@ int main(void)
 			putchar((i / 10) + '0');
 			putchar((i % 10) + '0');
 
-			if (n == 98 && i == 99)
-			continue;
+			if (n != 99 || i != 99)
 			putchar(',');
 			putchar(' ');
 		}
