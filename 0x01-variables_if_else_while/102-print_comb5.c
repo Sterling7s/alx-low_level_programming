@@ -7,7 +7,7 @@ int main(void)
 {
 	int n, i;
 
-	for (n = 0; n <= 99; n++)
+	for (n = 0; n <= 98; n++)
 	{
 		for (i = n + 1; i <= 99; i++)
 		{
@@ -16,10 +16,10 @@ int main(void)
 			putchar(' ');
 			putchar((i / 10) + '0');
 			putchar((i % 10) + '0');
-
-			if (n != 99 || i != 99)
-				putchar(',');
-				putchar(' ');
+			if (n == 98 && i == 99)
+			continue;
+			putchar(',');
+			putchar(' ');
 		}
 	}
 	putchar('\n');
