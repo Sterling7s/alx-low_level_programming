@@ -5,13 +5,11 @@
  */
 int main(void)
 {
-char letter;
-for (letter = 'a'; letter = 'z'; letter++)
-	putchar(letter);
-{
-if (letter != 'q'; &&letter != 'e')
-	putchar(letter);
-}
-putchar('\n');
-return (0);
+	char i;
+
+	for (i = 'a'; i <= 'z'; i++)
+		if (i != 'q' && i != 'e')
+			putchar(i);
+	putchar('\n');
+	return (0);
 }
