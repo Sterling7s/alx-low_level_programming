@@ -11,12 +11,17 @@ char d;
 c = 'a';
 d = 'A';
 
-while (c <= 'z')
-	putchar(c);
-	c++;
-while (d <= 'Z')
-	putchar(d);
-	d++;
+while
+	(c <= 'z') {
+		putchar(c);
+		c++;
+	}
+while
+	(d <= 'Z') {
+		putchar(c);
+		d++;
+	}
 return (0);
 }
+
 
