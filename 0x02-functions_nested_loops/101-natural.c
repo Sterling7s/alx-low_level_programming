@@ -17,7 +17,6 @@ int main(void)
 		}
 	}
 	printf("%d", sum);
-	printf("%d", limit);
 	printf("\n");
 	return (0);
 }
