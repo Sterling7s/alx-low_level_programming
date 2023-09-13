@@ -16,7 +16,9 @@ int main(void)
 			sum += i;
 		}
 	}
-	printf("The sum of all multiples of 3 or 5 below %d is: %d\n", limit, sum);
+	printf("%d", sum);
+	printf("%d", limit);
+	printf("\n");
 	return (0);
 }
 
