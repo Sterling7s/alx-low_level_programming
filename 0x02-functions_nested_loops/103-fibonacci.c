@@ -20,7 +20,6 @@ int main(void)
 		if (k % 2 == 0)
 			sum += k;
 		j = k - j;
-		++i;
 	}
 	printf(" %ld", sum);
 	return (0);
