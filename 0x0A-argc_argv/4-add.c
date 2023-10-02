@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <cytype.h>
+#include <ctype.h>
 #include <string.h>
 /**
  * check_num - check string there are digit
@@ -37,7 +37,7 @@ int main(int argc, char *argv[])
 	int sum = 0;
 
 	count = 1;
-	while (count_num(argv[count]))
+	while (count < argc)
 	{
 		if (check_num(argv[count]))
 	{
